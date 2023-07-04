@@ -155,6 +155,7 @@ def checker():
             else:
                 msg.showwarning('Sudoku Status','Wrong Arrangement!')
                 break
+        break
     if count==81:
         msg.showinfo('Sudoku Status','Correct Arrangement!')
                 
